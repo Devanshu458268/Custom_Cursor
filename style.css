@@ -1,0 +1,32 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+.cursor{
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    background-color: rgb(163, 70, 81);
+    position: absolute;
+    transition: all linear 0.2s;
+    z-index: 1;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+}
+.main{
+    width: 100vw;
+    height: 100vh;
+    background-color: lightcyan;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main h1{
+    font-size: 160px;
+    
+}
